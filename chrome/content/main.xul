@@ -5,4 +5,14 @@
 <window id="main" title="Welcome" width="640" height="480" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
 
 <script type="application/javascript" src="chrome://anima-installer/content/main.js"/>
+
+<caption label="Please choose the language used during the installation process."/>
+
+<listbox id="choose_language" height="50%"> 
+      <listitem label="Dutch"/>
+      <listitem label="English"  />
+      <listitem label="French"  />
+      <listitem label="German"  />
+      <listitem label="Spanish"   />
+    </listbox>
 </window>
